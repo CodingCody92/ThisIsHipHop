@@ -1,0 +1,79 @@
+h1,h4 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    line-height: 65px;
+    
+}
+
+.nav-link {
+    margin: 0 50px;
+    padding: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+    
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+} 
+
+ p {
+     color: white;
+     font-weight: 700;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1em;
+     line-height: 2em;
+     
+ }
+
+ .ad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 15px;
+ }
+
+ .checked {
+     color: rgb(192, 18, 18);
+ }
+
+ .cole {
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 30px;
+     border-radius: 5px;
+ }
+
+ button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: lightskyblue;
+}
+
+.dropdown-item:active {
+    background-color: lightskyblue;
+}
+
+.dropdown-item:hover {
+    background-color: gray;
+    color: blue;
+}
+
+.album:hover {
+     color: orange;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
