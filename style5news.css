@@ -1,3 +1,10 @@
+.nav-link {
+    margin: 0 50px;
+    padding: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
 h4 {
     text-align: center;
     color: white;
@@ -11,7 +18,7 @@ p {
 }
 
 aside {
-
+    display: flex;
     font-size: 25px;
     width: 40%;
     padding-left: .5rem;
@@ -21,9 +28,6 @@ aside {
     font-style: italic;
     color: white;
     padding: 25px;
-    
-
-
 }
 
 .side:hover{
@@ -45,9 +49,22 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 50%;
     margin-top: 30px;
 }
+
+.dropdown-menu {
+    background-color: hsl(224, 56%, 22%);
+  }
+  
+.dropdown-item {
+    color: white;
+  }
+  
+.dropdown-item:hover {
+    background-color: rgb(65, 86, 110);
+    color: white;
+  }
 
 button:hover {
     background-color: white;

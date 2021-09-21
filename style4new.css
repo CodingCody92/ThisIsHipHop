@@ -1,7 +1,17 @@
+.nav-link {
+    margin: 0 50px;
+    padding: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+
 .kodak {
     border: 1px solid white; 
     padding: 5px;
     width: 600px;
+    display: flex;
+    max-width: 100%;
     
 }
 
@@ -16,11 +26,13 @@ font-size: larger;
 .moneybagg {
     border: 1px solid white; 
     padding: 5px;
-    width: 600px;
+    display: flex;
+    max-width: 100%;
+    margin-top: 30px;
 }
 
 .yo {
-    text-align: left;
+text-align: left;
 color: white;
 display: block;
 margin-left: auto;
@@ -37,8 +49,23 @@ h1 {
 .savage {
     border: 1px solid white; 
     padding: 5px;
-    width: 600px;
+    display: flex;
+    max-width: 100%;
+    margin-top: 30px;
 }
+
+.dropdown-menu {
+    background-color: hsl(224, 56%, 22%);
+  }
+  
+.dropdown-item {
+    color: white;
+  }
+  
+.dropdown-item:hover {
+    background-color: rgb(65, 86, 110);
+    color: white;
+  }
 
 .sav {
     text-align: left;
@@ -51,7 +78,10 @@ h1 {
 .cole {
     border: 1px solid white; 
     padding: 5px;
-    width: 600px;
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .season {
@@ -63,10 +93,11 @@ h1 {
 }
 
 .disney {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 50%;
+    padding-top: 30px;
 }
 
 button:hover {

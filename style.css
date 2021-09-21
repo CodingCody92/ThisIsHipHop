@@ -24,6 +24,19 @@ form button {
  
 }
 
+.dropdown-menu {
+  background-color: hsl(224, 56%, 22%);
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(65, 86, 110);
+  color: white;
+}
+
 form button:hover {
     color: rgb(26, 26, 26);
     background-color: rgb(221, 219, 219);

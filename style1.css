@@ -31,21 +31,37 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 50%;
     padding: 15px;
  }
+
+ .dropdown-menu {
+    background-color: hsl(224, 56%, 22%);
+  }
+  
+  .dropdown-item {
+    color: white;
+  }
+  
+  .dropdown-item:hover {
+    background-color: rgb(65, 86, 110);
+    color: white;
+  }
 
  .checked {
      color: rgb(192, 18, 18);
  }
 
  .cole {
-     width: 50%;
+     max-width: 50%;
      margin-left: auto;
      margin-right: auto;
      padding-left: 30px;
      border-radius: 5px;
  }
+  #jermaine {
+      max-width: 100%;
+  }
 
  button:hover {
     background-color: white;
